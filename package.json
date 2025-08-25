@@ -20,15 +20,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tanvir-ts/MIT-Solution.git"
+    "url": "git+https://github.com/tanvir-ts/mitsolution.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tanvir-ts/MIT-Solution/issues"
+    "url": "https://github.com/tanvir-ts/mitsolution/issues"
   },
-  "homepage": "https://github.com/tanvir-ts/MIT-Solution#readme",
+  "homepage": "https://github.com/tanvir-ts/mitsolution#readme",
   "description": "",
   "devDependencies": {
     "@eslint/eslintrc": "^3",
