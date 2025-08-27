@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faHome, faInfoCircle, faLocationDot, faLocationPin, faPhone, faUser, faVoicemail } from "@fortawesome/free-solid-svg-icons";
-import { faFacebook, faInstagram, faLinkedinIn, faWhatsapp, faYoutube } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook, faInstagram, faLinkedinIn, faPinterest, faWhatsapp, faYoutube } from "@fortawesome/free-brands-svg-icons"
 
 export default function Footer() {
     return (
@@ -110,11 +110,12 @@ export default function Footer() {
             </div>
             <div className="flex justify-around text-center items-center">
                 <img src="image/website logo.png" alt="" />
-                <p>Copyright Copy& 2025 All right MIT Solution </p>
+                <p className="text-xl font-medium text-red-500">Copyright &copy; 2021-2025 All rights reserved MIT Solution </p>
                 <div className="space-x-3 text-2xl">
                     <a href="" className=""><FontAwesomeIcon  icon={faFacebook} /></a>
                     <a href=""><FontAwesomeIcon icon={faYoutube} /></a>
                     <a href=""><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                    <a href=""><FontAwesomeIcon icon={faPinterest} /></a>
                 </div>
             </div>
             <div className="text-black text-xl mt-8 font-lg font-bold text-center ">
