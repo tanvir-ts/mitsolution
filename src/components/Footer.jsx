@@ -1,15 +1,15 @@
 "use client";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faHome, faInfoCircle, faLocationDot, faLocationPin, faPhone, faUser, faVoicemail } from "@fortawesome/free-solid-svg-icons";
-import { faFacebook, faInstagram, faLinkedinIn, faPinterest, faWhatsapp, faYoutube } from "@fortawesome/free-brands-svg-icons"
+import { faEnvelope, faHome, faInfoCircle, faLocationDot, faLocationPin, faPhone, faUser, faVoicemail, faX } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faInstagram, faLinkedinIn, faPinterest, faTwitter, faWhatsapp, faYoutube } from "@fortawesome/free-brands-svg-icons"
 
 export default function Footer() {
     return (
         <footer >
             <div className="bg-blue-700 text-white p-4 text-center">
                 <div className="container mx-auto space-y-4 mb-25">
-                    <h1 className="text-4xl font-xl font-bold">Admission Is Going On</h1>
+                    <h1 className="text-5xl font-xl font-bold">Admission Is Going On</h1>
                     <p className="text-xl font-medium mb-8">Enroll to any offline or online course now, take one step ahead towards a complete career.</p>
                     <div className="flex justify-center space-x-4">
                         <button className="border hover:bg-pink-600 text-xl border-white text-white font-xl font-bold px-3 py-1.5 rounded-xl">Join Free Seminar</button>
@@ -112,10 +112,11 @@ export default function Footer() {
                 <img src="image/website logo.png" alt="" />
                 <p className="text-xl font-medium text-red-500">Copyright &copy; 2021-2025 All rights reserved MIT Solution </p>
                 <div className="space-x-3 text-2xl">
-                    <a href="" className=""><FontAwesomeIcon  icon={faFacebook} /></a>
+                    <a href="https://www.facebook.com/mitsolutioncomputertraininginstitut" className=""><FontAwesomeIcon  icon={faFacebook} /></a>
                     <a href=""><FontAwesomeIcon icon={faYoutube} /></a>
                     <a href=""><FontAwesomeIcon icon={faLinkedinIn} /></a>
                     <a href=""><FontAwesomeIcon icon={faPinterest} /></a>
+                    <a href=""><FontAwesomeIcon icon={faTwitter} /> </a>
                 </div>
             </div>
             <div className="text-black text-xl mt-8 font-lg font-bold text-center ">
