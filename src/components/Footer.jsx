@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faLocationDot,faPhone,faEnvelope} from "@fortawesome/free-solid-svg-icons";
-import {faFacebook,faYoutube,faLinkedinIn,faPinterest,faTwitter,faWhatsapp} from "@fortawesome/free-brands-svg-icons";
+import {faFacebook,faYoutube,faLinkedinIn,faPinterest,faTwitter,faWhatsapp, faInstagram, faXTwitter} from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
@@ -135,11 +135,12 @@ export default function Footer() {
             &copy; 2021-2025 MIT Solution. All rights reserved.
           </p>
           <div className="flex text-black space-x-3 text-2xl md:text-3xl">
-            <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
-            <a href="#"><FontAwesomeIcon icon={faYoutube} /></a>
-            <a href="#"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-            <a href="#"><FontAwesomeIcon icon={faPinterest} /></a>
-            <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
+            <a href="https://www.facebook.com/mitsolutioncomputertraininginstitut/"><FontAwesomeIcon icon={faFacebook} /></a>
+            <a href="https://www.youtube.com/@mitsolution_cti_bd"><FontAwesomeIcon icon={faYoutube} /></a>
+            <a href="https://www.instagram.com/mitsolution_cti_bd/"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href="https://www.linkedin.com/in/mit-solution-computer-training-institute-b083b3284/"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+            <a href="https://www.pinterest.com/mitsolution21/"><FontAwesomeIcon icon={faPinterest} /></a>
+            <a href="https://x.com/MdJakir53877"><FontAwesomeIcon icon={faXTwitter} /></a>
           </div>
         </div>
       </div>

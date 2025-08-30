@@ -86,7 +86,7 @@ export default function Navbar() {
           {/* Logo on top */}
           <Link href="/" onClick={() => setIsOpen(false)}>
             <img
-              src="/image/Leaflat-4-color-003.png"
+              src="/image/leadimage.png"
               alt="Website Logo"
               className="h-12 w-auto"
             />
