@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
+import { faBookOpen, faCircleInfo, faInfo, faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 
 export default function Experience() {
   return (
@@ -28,7 +28,7 @@ export default function Experience() {
               <FontAwesomeIcon icon={faBookOpen} className="mr-2"/> Browse Course
             </Link>
             <button className="bg-pink-700 hover:bg-pink-800 text-white font-bold text-lg px-5 py-3 rounded-xl flex items-center justify-center transition">
-              <FontAwesomeIcon icon={faBookOpen} className="mr-2"/> Learn More
+              <FontAwesomeIcon icon={faInfoCircle} className="mr-2"/> Learn More
             </button>
           </div>
         </div>
