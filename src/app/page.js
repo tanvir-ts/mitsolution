@@ -2,7 +2,9 @@ import Hello from "@/components/hello";
 import Banner from "@/components/Banner";
 import Feature from "@/components/feature";
 import Stats from "@/components/stats";
+import Developer from "@/components/developer";
 import Community from "@/components/Community";
+import Student from "@/components/student";
 import Experience from "@/components/experience";
 import FreeSeminar from "@/components/freeseminar";
 import Faq from "@/components/faq";
@@ -18,7 +20,9 @@ export default function Home() {
       <Banner />
       <Feature />
       <Stats />
+      <Developer />
       <Community />
+      <Student />
       <Experience />
       <FreeSeminar />
       <Faq />
