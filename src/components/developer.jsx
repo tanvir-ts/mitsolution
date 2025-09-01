@@ -37,14 +37,14 @@ export default function Developer() {
           <a
             href={developer.github}
             target="_blank"
-            className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition"
+            className="px-6 py-3 bg-pink-600 text-white rounded-full hover:bg-blue-700 transition"
           >
             GitHub
           </a>
           <a
             href={developer.linkedin}
             target="_blank"
-            className="px-6 py-3 bg-gray-200 text-gray-800 rounded-full hover:bg-gray-300 transition"
+            className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-pink-700 transition"
           >
             LinkedIn
           </a>
