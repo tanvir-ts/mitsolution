@@ -7,7 +7,7 @@ const directors = [
   {
     id: 1,
     name: "Sayed Md. Jakir Hossain",
-    title: "C.E.O & Founder of MIT Solution Managing Director of Electrogreen Energy",
+    title: "C.E.O & Founder of MIT Solution & Managing Director of Electrogreen Energy",
     phone: "01814-419521",
     department: "Administration",
     email: "mitsolution21@gmail.com",
@@ -16,7 +16,7 @@ const directors = [
   {
     id: 2,
     name: "Umar Ul Fath",
-    title: "Managing Director of MIT Solution C.E.O & Founder of Ul Fath Ads Agency",
+    title: "Managing Director of MIT Solution & C.E.O & Founder of Ul Fath Ads Agency",
     phone: "01754-582287",
     department: "Operations",
     email: "mitsolution21@gmail.com",

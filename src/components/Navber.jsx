@@ -10,7 +10,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-gray-200 shadow-md">
+    <nav className="w-full bg-gray-200 sticky top-0 z-50 shadow-md">
       {/* ===== Top Info Bar (Desktop Only) ===== */}
       <div className="hidden md:flex justify-between items-center bg-blue-600 text-white text-sm px-4 py-2">
         <div className="space-x-6 flex">
@@ -30,7 +30,7 @@ export default function Navbar() {
       </div>
 
       {/* ===== Main Navbar ===== */}
-      <div className="container mx-auto flex items-center justify-between px-4 py-3 relative">
+      <div className="container  mx-auto flex items-center justify-between px-4 py-3 relative">
         {/* Mobile Menu Button (Left) */}
         <button
           className="md:hidden absolute left-4 text-2xl text-gray-800"

@@ -89,7 +89,7 @@ export default function Hello() {
         className="mt-12 md:mt-0 relative z-10 flex items-end justify-center"
       >
         {/* Rounded Background with Glow */}
-        <div className="absolute bottom-0 w-[120%] h-[70%] rounded-t-full bg-gradient-to-r from-pink-400 via-pink-300 to-pink-200 opacity-90 backdrop-blur-2xl shadow-2xl border border-white/30 z-0 overflow-hidden">
+        <div className="absolute bottom-0 w-[120%] h-[70%] rounded-t-full bg-gradient-to-r from-pink-700 via-pink-800 to-pink-900 opacity-90 backdrop-blur-2xl shadow-2xl border border-white/30 z-0 overflow-hidden">
           {/* Glow Effect */}
           <div className="absolute inset-0 bg-gradient-to-r from-white/40 via-white/10 to-transparent blur-2xl animate-glow" />
         </div>
