@@ -3,6 +3,7 @@ import Navber from "@/components/Navber";
 import Footer from "@/components/Footer";
 import "./globals.css";
 import ChatWidget from "@/components/ChatWidget";
+import SidebarButton from "@/components/sideberbutton";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Navber />
         <main> {children} </main>
+        <SidebarButton />
         <Footer />
         <ChatWidget />
       </body>
