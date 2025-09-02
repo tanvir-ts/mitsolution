@@ -84,8 +84,8 @@ export default function Developer() {
               />
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold mb-2">{selectedDev.name}</h2>
-            <p className="text-gray-600 text-base sm:text-lg mb-3">{selectedDev.role}</p>
-            <p className="text-gray-500 mb-6">{selectedDev.description}</p>
+            <p className="text-gray-900 text-xl font-semibold sm:text-lg mb-3">{selectedDev.role}</p>
+            <p className="text-gray-700 text-base sm:text-xl font-semibold  mb-6">{selectedDev.description}</p>
 
             <p className="mb-4">
               <a

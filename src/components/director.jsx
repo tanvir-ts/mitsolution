@@ -20,7 +20,7 @@ const directors = [
     phone: "01754-582287",
     department: "Operations",
     email: "mitsolution21@gmail.com",
-    image: "/image/tanvir.jpg",
+    image: "/image/umar sir.png",
   },
 ];
 
