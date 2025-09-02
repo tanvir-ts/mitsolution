@@ -15,8 +15,8 @@ const instructors = [
   },
   {
     id: 2,
-    name: "Another Instructor",
-    title: "Frontend Developer",
+    name: "Minhazul Karim",
+    title: "Greaphic Designer",
     phone: "01711-000000",
     course: "React & Next.js",
     email: "example@gmail.com",
