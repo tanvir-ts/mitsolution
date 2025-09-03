@@ -41,6 +41,11 @@ const courses = [
 export default function CourseGrid() {
   const [selectedCourse, setSelectedCourse] = useState(null);
 
+  // Production-safe selected component
+  const SelectedComponent = selectedCourse
+    ? courses.find(c => c.name === selectedCourse)?.component
+    : null;
+
   return (
     <div className="min-h-screen bg-gray-50 px-6 py-12">
       <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">Our Courses</h2>
@@ -63,18 +68,7 @@ export default function CourseGrid() {
       </div>
 
       <div>
-        {selectedCourse ? (
-          <div className="transition-all duration-500">
-            {courses.find(c => c.name === selectedCourse)?.component && 
-              (() => {
-                const Component = courses.find(c => c.name === selectedCourse).component;
-                return <Component />;
-              })()
-            }
-          </div>
-        ) : (
-          <p className="text-center text-gray-500">Please select a course to view details.</p>
-        )}
+        {SelectedComponent ? <SelectedComponent /> : <p className="text-center text-gray-500">Please select a course to view details.</p>}
       </div>
     </div>
   );
