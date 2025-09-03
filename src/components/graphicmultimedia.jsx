@@ -1,81 +1,72 @@
 "use client";
 
-import React from "react";
+import React from 'react';
 
 const courses = [
   {
-    title: "Font-end Development with React",
+    title: "Professional Graphic Design",
     rating: 5,
-    reviews: 2200,
-    fee: 40000,
+    reviews: 2000,
+    fee: 50000,
     badge: "Best Seller",
     image: "/image/web imsge.jpg",
   },
   {
-    title: "Backend Development with Node.js & Express",
+    title: "Motion Graphics",
     rating: 5,
-    reviews: 1800,
-    fee: 45000,
-    badge: "Popular",
+    reviews: 2500,
+    fee: 50000,
+    badge: "New",
     image: "/image/web imsge.jpg",
   },
   {
-    title: "Full Stack Development",
+    title: "UX/UI Design",
     rating: 5,
     reviews: 2000,
     fee: 50000,
     image: "/image/web imsge.jpg",
   },
   {
-    title: "Wordpress Development",
+    title: "Digital Image Editing",
     rating: 5,
-    reviews: 1700,
+    reviews: 2000,
     fee: 50000,
     image: "/image/web imsge.jpg",
   },
   {
-    title: "MERN Stack Development",
+    title: "Adobe Illustrator",
     rating: 5,
-    reviews: 1500,
-    fee: 55000,
-    image: "/image/web imsge.jpg",
-  },
-  {
-    title: "App Development with Kotlin",
-    rating: 5,
-    reviews: 1700,
+    reviews: 2000,
     fee: 50000,
     image: "/image/web imsge.jpg",
   },
   {
-    title: "Python Django",
+    title: "Adobe Photoshop",
     rating: 5,
-    reviews: 1700,
+    reviews: 2000,
     fee: 50000,
     image: "/image/web imsge.jpg",
   },
   {
-    title: "MongoDB – Database for Web Apps",
+    title: "Digital Product Design",
     rating: 5,
-    reviews: 1700,
+    reviews: 2000,
     fee: 50000,
     image: "/image/web imsge.jpg",
   },
   {
-    title: "Python Machine Learning",
+    title: "Diploma in Graphic & Motion Design",
     rating: 5,
-    reviews: 1600,
-    fee: 45000,
+    reviews: 2000,
+    fee: 50000,
     image: "/image/web imsge.jpg",
   },
 ];
 
-export default function WebDevelopment() {
+export default function GraphicMultimedia() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
-      <h2 className="text-3xl font-bold text-center mb-6">
-        Web Development
-      </h2>
+      <h2 className="text-3xl font-bold text-center mb-6">Graphic & Multimedia</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {courses.map((course, idx) => (
           <div
@@ -84,7 +75,7 @@ export default function WebDevelopment() {
           >
             {/* Badge */}
             {course.badge && (
-              <span className="absolute top-4 right-4 bg-indigo-500 text-white text-xs font-semibold px-2 py-1 rounded z-10">
+              <span className="absolute top-4 right-4 bg-yellow-400 text-white text-xs font-semibold px-2 py-1 rounded z-10">
                 {course.badge}
               </span>
             )}
@@ -98,26 +89,20 @@ export default function WebDevelopment() {
 
             {/* Content */}
             <div className="p-6">
-              <h3 className="text-xl font-bold text-gray-800 mb-2">
-                {course.title}
-              </h3>
+              <h3 className="text-xl font-bold text-gray-800 mb-2">{course.title}</h3>
 
               <div className="flex items-center text-yellow-500 mb-1">
                 {"★".repeat(course.rating)}
-                <span className="ml-2 text-sm text-gray-600">
-                  ({course.rating})
-                </span>
+                <span className="ml-2 text-sm text-gray-600">({course.rating})</span>
               </div>
 
-              <p className="text-sm text-gray-500 mb-2">
-                {course.reviews.toLocaleString()} Reviews
-              </p>
+              <p className="text-sm text-gray-500 mb-2">{course.reviews.toLocaleString()} Reviews</p>
 
               <p className="text-lg font-semibold text-blue-600 mb-4">
                 Fee: {course.fee.toLocaleString()} BDT
               </p>
 
-              <button className="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600 transition-colors duration-200">
+              <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors duration-200">
                 Enroll Now
               </button>
             </div>

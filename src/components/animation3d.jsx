@@ -4,56 +4,56 @@ import React from "react";
 
 const courses = [
   {
-    title: "Basic Spoken English",
+    title: "Blender 3D – Beginner to Advanced",
     rating: 5,
-    reviews: 2200,
-    fee: 20000,
+    reviews: 1800,
+    fee: 50000,
     badge: "Best Seller",
     image: "/image/web imsge.jpg",
   },
   {
-    title: "Intermediate Spoken English",
+    title: "Autodesk Maya – 3D Modeling & Animation",
     rating: 5,
-    reviews: 1800,
-    fee: 25000,
+    reviews: 1500,
+    fee: 60000,
     badge: "Popular",
     image: "/image/web imsge.jpg",
   },
   {
-    title: "Advanced Spoken English",
-    rating: 5,
-    reviews: 1500,
-    fee: 30000,
-    image: "/image/web imsge.jpg",
-  },
-  {
-    title: "Business English Communication",
+    title: "3ds Max – Modeling & Rendering",
     rating: 5,
     reviews: 1200,
-    fee: 35000,
+    fee: 55000,
     image: "/image/web imsge.jpg",
   },
   {
-    title: "English for Interviews",
+    title: "Cinema 4D – Motion Graphics & Animation",
+    rating: 5,
+    reviews: 1100,
+    fee: 50000,
+    image: "/image/web imsge.jpg",
+  },
+  {
+    title: "ZBrush – Digital Sculpting",
     rating: 5,
     reviews: 1000,
-    fee: 25000,
+    fee: 60000,
     image: "/image/web imsge.jpg",
   },
   {
-    title: "Accent & Pronunciation Training",
+    title: "Unreal Engine – 3D Animation & Visualization",
     rating: 5,
     reviews: 900,
-    fee: 30000,
+    fee: 65000,
     image: "/image/web imsge.jpg",
   },
 ];
 
-export default function SpokeEnglish() {
+export default function Animation3D() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <h2 className="text-3xl font-bold text-center mb-6">
-        Spoken English
+        3D Animation
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {courses.map((course, idx) => (
@@ -63,7 +63,7 @@ export default function SpokeEnglish() {
           >
             {/* Badge */}
             {course.badge && (
-              <span className="absolute top-4 right-4 bg-blue-500 text-white text-xs font-semibold px-2 py-1 rounded z-10">
+              <span className="absolute top-4 right-4 bg-purple-500 text-white text-xs font-semibold px-2 py-1 rounded z-10">
                 {course.badge}
               </span>
             )}
@@ -96,7 +96,7 @@ export default function SpokeEnglish() {
                 Fee: {course.fee.toLocaleString()} BDT
               </p>
 
-              <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors duration-200">
+              <button className="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600 transition-colors duration-200">
                 Enroll Now
               </button>
             </div>

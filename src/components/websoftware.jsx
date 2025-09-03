@@ -4,56 +4,77 @@ import React from "react";
 
 const courses = [
   {
-    title: "Blender 3D – Beginner to Advanced",
+    title: "Font-end Development with React",
     rating: 5,
-    reviews: 1800,
-    fee: 50000,
+    reviews: 2200,
+    fee: 40000,
     badge: "Best Seller",
     image: "/image/web imsge.jpg",
   },
   {
-    title: "Autodesk Maya – 3D Modeling & Animation",
+    title: "Backend Development with Node.js & Express",
     rating: 5,
-    reviews: 1500,
-    fee: 60000,
+    reviews: 1800,
+    fee: 45000,
     badge: "Popular",
     image: "/image/web imsge.jpg",
   },
   {
-    title: "3ds Max – Modeling & Rendering",
+    title: "Full Stack Development",
     rating: 5,
-    reviews: 1200,
-    fee: 55000,
-    image: "/image/web imsge.jpg",
-  },
-  {
-    title: "Cinema 4D – Motion Graphics & Animation",
-    rating: 5,
-    reviews: 1100,
+    reviews: 2000,
     fee: 50000,
     image: "/image/web imsge.jpg",
   },
   {
-    title: "ZBrush – Digital Sculpting",
+    title: "Wordpress Development",
     rating: 5,
-    reviews: 1000,
-    fee: 60000,
+    reviews: 1700,
+    fee: 50000,
     image: "/image/web imsge.jpg",
   },
   {
-    title: "Unreal Engine – 3D Animation & Visualization",
+    title: "MERN Stack Development",
     rating: 5,
-    reviews: 900,
-    fee: 65000,
+    reviews: 1500,
+    fee: 55000,
+    image: "/image/web imsge.jpg",
+  },
+  {
+    title: "App Development with Kotlin",
+    rating: 5,
+    reviews: 1700,
+    fee: 50000,
+    image: "/image/web imsge.jpg",
+  },
+  {
+    title: "Python Django",
+    rating: 5,
+    reviews: 1700,
+    fee: 50000,
+    image: "/image/web imsge.jpg",
+  },
+  {
+    title: "MongoDB – Database for Web Apps",
+    rating: 5,
+    reviews: 1700,
+    fee: 50000,
+    image: "/image/web imsge.jpg",
+  },
+  {
+    title: "Python Machine Learning",
+    rating: 5,
+    reviews: 1600,
+    fee: 45000,
     image: "/image/web imsge.jpg",
   },
 ];
 
-export default function Animation() {
+export default function WebSoftware() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <h2 className="text-3xl font-bold text-center mb-6">
-        3D Animation
+        Web & Software
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {courses.map((course, idx) => (
@@ -63,7 +84,7 @@ export default function Animation() {
           >
             {/* Badge */}
             {course.badge && (
-              <span className="absolute top-4 right-4 bg-purple-500 text-white text-xs font-semibold px-2 py-1 rounded z-10">
+              <span className="absolute top-4 right-4 bg-indigo-500 text-white text-xs font-semibold px-2 py-1 rounded z-10">
                 {course.badge}
               </span>
             )}

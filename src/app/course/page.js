@@ -1,13 +1,13 @@
 import Course from "@/components/course";
 import Admission from "@/components/admission";
-import CourseCard from "@/components/coursecard";
+import CourseGrid from "@/components/coursegrid"; 
 import OfficeCourse from "@/components/officecourse";
-import GraphicDesign from "@/components/graphicdesign";
-import WebDevelopment from "@/components/webdevelopment";
+import GraphicMultimedia from "@/components/graphicmultimedia";
+import WebSoftware from "@/components/websoftware";
 import DigitalMarketing from "@/components/digitalmarketing";
 import ComputerHardware from "@/components/computerhardware";
-import Animation from "@/components/animation";
-import SpokeEnglish from "@/components/spokeenglish";
+import Animation3D from "@/components/animation3d";
+import SpokenEnglish from "@/components/spokenenglish";
 import VideoEditing from "@/components/videoediting";
 import AutoCAD from "@/components/autocad";
 import ComputerSellService from "@/components/computersellservice";
@@ -18,14 +18,14 @@ export default function CoursePage() {
     <>
       <Course />
       <Admission />
-      <CourseCard />
+      <CourseGrid />
       <OfficeCourse />
-      <GraphicDesign />
-      <WebDevelopment /> 
+      <GraphicMultimedia />
+      <WebSoftware /> 
       <DigitalMarketing />
       <ComputerHardware />
-      <Animation />
-      <SpokeEnglish />
+      <Animation3D />
+      <SpokenEnglish />
       <VideoEditing />
       <AutoCAD />
       <ComputerSellService />

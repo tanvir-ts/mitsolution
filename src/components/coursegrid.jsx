@@ -15,30 +15,30 @@ import {
 } from "react-icons/fa";
 
 import OfficeCourse from "./OfficeCourse";
-import GraphicDesign from "./GraphicDesign";
-import WebDevelopment from "./WebDevelopment";
+import GraphicMultimedia from "./GraphicMultimedia";
+import WebSoftware from "./WebSoftware";
 import DigitalMarketing from "./DigitalMarketing";
 import ComputerHardware from "./ComputerHardware";
-import Animation from "./Animation";
-import SpokeEnglish from "./SpokeEnglish";
+import Animation3D from "./Animation3D";
+import SpokenEnglish from "./SpokenEnglish";
 import VideoEditing from "./VideoEditing";
 import AutoCAD from "./AutoCAD";
 import ComputerSellService from "./ComputerSellService";
 
 const courses = [
   { name: "Office Course", icon: <FaFileWord className="text-blue-500 text-4xl" />, component: <OfficeCourse /> },
-  { name: "Graphic Design", icon: <FaPaintBrush className="text-red-500 text-4xl" />, component: <GraphicDesign /> },
-  { name: "Web Development", icon: <FaLaptopCode className="text-blue-600 text-4xl" />, component: <WebDevelopment /> },
+  { name: "Graphic & Multimedia", icon: <FaPaintBrush className="text-red-500 text-4xl" />, component: <GraphicMultimedia /> },
+  { name: "Web & Software", icon: <FaLaptopCode className="text-blue-600 text-4xl" />, component: <WebSoftware /> },
   { name: "Digital Marketing", icon: <FaBullhorn className="text-green-500 text-4xl" />, component: <DigitalMarketing /> },
   { name: "Computer Hardware", icon: <FaMicrochip className="text-gray-600 text-4xl" />, component: <ComputerHardware /> },
-  { name: "3D Animation", icon: <FaCube className="text-purple-500 text-4xl" />, component: <Animation /> },
-  { name: "Spoken English", icon: <FaLanguage className="text-indigo-500 text-4xl" />, component: <SpokeEnglish /> },
+  { name: "3D Animation", icon: <FaCube className="text-purple-500 text-4xl" />, component: <Animation3D /> },
+  { name: "Spoken English", icon: <FaLanguage className="text-indigo-500 text-4xl" />, component: <SpokenEnglish /> },
   { name: "Video Editing", icon: <FaVideo className="text-yellow-500 text-4xl" />, component: <VideoEditing /> },
   { name: "AutoCAD", icon: <FaDraftingCompass className="text-pink-500 text-4xl" />, component: <AutoCAD /> },
   { name: "Computer Sales & Service", icon: <FaTools className="text-green-700 text-4xl" />, component: <ComputerSellService /> },
 ];
 
-export default function CourseCard() {
+export default function CourseGrid() {
   const [selectedCourse, setSelectedCourse] = useState(null);
 
   return (
