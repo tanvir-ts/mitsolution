@@ -1,16 +1,16 @@
-import Course from "@/components/Course";
-import Admission from "@/components/Admission";
-import CourseCard from "@/components/CourseCard";
-import OfficeCourse from "@/components/OfficeCourse";
-import GraphicDesign from "@/components/GraphicDesign";
-import WebDevelopment from "@/components/WebDevelopment";
-import DigitalMarketing from "@/components/DigitalMarketing";
-import ComputerHardware from "@/components/ComputerHardware";
-import Animation from "@/components/Animation";
-import SpokeEnglish from "@/components/SpokeEnglish";
-import VideoEditing from "@/components/VideoEditing";
-import AutoCAD from "@/components/AutoCAD";
-import ComputerSellService from "@/components/ComputerSellService";
+import Course from "@/components/course";
+import Admission from "@/components/admission";
+import CourseCard from "@/components/coursecard";
+import OfficeCourse from "@/components/officecourse";
+import GraphicDesign from "@/components/graphicdesign";
+import WebDevelopment from "@/components/webdevelopment";
+import DigitalMarketing from "@/components/digitalmarketing";
+import ComputerHardware from "@/components/computerhardware";
+import Animation from "@/components/animation";
+import SpokeEnglish from "@/components/spokeenglish";
+import VideoEditing from "@/components/videoediting";
+import AutoCAD from "@/components/autocad";
+import ComputerSellService from "@/components/computersellservice";
 
 export default function CoursePage() {
   return (
