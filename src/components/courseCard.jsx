@@ -38,7 +38,7 @@ const courses = [
   { name: "Computer Sales & Service", icon: <FaTools className="text-green-700 text-4xl" />, component: <ComputerSellsService /> },
 ];
 
-export default function CourseGrid() {
+export default function coursecard() {
   const [selectedCourse, setSelectedCourse] = useState(null);
 
   return (
