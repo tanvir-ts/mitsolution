@@ -1,6 +1,7 @@
 import Course from "@/components/course";
 import Admission from "@/components/admission";
 import CourseCard from "@/components/coursecard";
+
 import OfficeCourse from "@/components/officecourse";
 import GraphicDesign from "@/components/graphicdesign";
 import WebDevelopment from "@/components/webdevelopment";

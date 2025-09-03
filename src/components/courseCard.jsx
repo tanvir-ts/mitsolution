@@ -13,16 +13,16 @@ import {
   FaTools,
 } from "react-icons/fa";
 
-import OfficeCourse from "./officecourse";
-import GraphicDesign from "./graphicdesign";
-import WebDevelopment from "./webdevelopment";
-import DigitalMarketing from "./digitalmarketing";
-import ComputerHardware from "./computerhardware";
-import Animation from "./animation";
-import SpokeEnglish from "./spokeenglish";
-import VideoEditing from "./videoediting";
-import AutoCAD from "./autocad";
-import ComputerSellsService from "./computersellsservice";
+import OfficeCourse from "@/components/officecourse";
+import GraphicDesign from "@/components/graphicdesign";
+import WebDevelopment from "@/components/webdevelopment";
+import DigitalMarketing from "@/components/digitalmarketing";
+import ComputerHardware from "@/components/computerhardware";
+import Animation from "@/components/animation";
+import SpokeEnglish from "@/components/spokeenglish";
+import VideoEditing from "@/components/videoediting";
+import AutoCAD from "@/components/autocad";
+import ComputerSellsService from "@/components/computersellsservice";
 
 const courses = [
   { name: "Office Course", icon: <FaFileWord className="text-blue-500 text-4xl" />, component: <OfficeCourse /> },
@@ -42,7 +42,6 @@ export default function CourseCard() {
 
   return (
     <div className="min-h-screen bg-gray-50 px-6 py-12">
-      {/* Courses Grid */}
       <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">Our Courses</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mb-12">
         {courses.map((course, idx) => (
@@ -61,7 +60,6 @@ export default function CourseCard() {
         ))}
       </div>
 
-      {/* Selected Course Section */}
       <div>
         {selectedCourse ? (
           <div className="transition-all duration-500">{selectedCourse}</div>
