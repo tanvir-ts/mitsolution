@@ -3,7 +3,7 @@
 export default function Course() {
   return (
     <section className="w-full px-4 py-10 bg-gray-50">
-      <div className="mx-auto text-left">
+      <div className="max-w-4xl mx-auto text-left">
         <h2 className="text-2xl md:text-5xl font-bold font-xl text-pink-700 mb-6">Courses</h2>
         <p className="text-sm md:text-base lg:text-lg leading-relaxed text-gray-700">
           We offer all the trendy courses that are in demand in the global market. 
