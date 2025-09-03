@@ -17,7 +17,7 @@ const instructors = [
     id: 2,
     name: "Minhazul Karim",
     title: "Greaphic Designer",
-    phone: "01711-000000",
+    phone: "01711-878760",
     course: "Animation",
     email: "example@gmail.com",
     image: "/image/tanvir.jpg",
