@@ -1,6 +1,6 @@
 import Course from "@/components/course";
 import Admission from "@/components/admission";
-import CourseGrid from "@/components/coursegrid"; 
+import CourseGrid from "@/components/coursegrid";
 import OfficeCourse from "@/components/officecourse";
 import GraphicMultimedia from "@/components/graphicmultimedia";
 import WebSoftware from "@/components/websoftware";

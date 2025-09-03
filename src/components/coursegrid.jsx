@@ -49,7 +49,7 @@ export default function CourseGrid() {
           <div
             key={idx}
             className="bg-white shadow rounded p-4 text-center cursor-pointer transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:bg-gradient-to-br hover:from-indigo-400 hover:to-pink-400"
-            onClick={() => setSelectedCourse(course.component)}
+            onClick={() => setSelectedCourse(course.name)}
           >
             <div className="mb-2 flex justify-center">
               <span className="inline-block transition-transform duration-500 hover:scale-125 hover:rotate-12 hover:animate-bounce hover:drop-shadow-lg">
@@ -63,11 +63,16 @@ export default function CourseGrid() {
 
       <div>
         {selectedCourse ? (
-          <div className="transition-all duration-500">{selectedCourse}</div>
+          <div className="transition-all duration-500">
+            {courses.find(c => c.name === selectedCourse)?.component}
+          </div>
         ) : (
-          <p className="text-center text-gray-500">Please select a course to view details.</p>
+          <p className="text-center text-gray-500">
+            Please select a course to view details.
+          </p>
         )}
       </div>
+
     </div>
   );
 }
