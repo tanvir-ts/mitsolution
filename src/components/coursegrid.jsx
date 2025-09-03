@@ -26,16 +26,16 @@ import AutoCAD from "./AutoCAD";
 import ComputerSellService from "./ComputerSellService";
 
 const courses = [
-  { name: "Office Course", icon: <FaFileWord className="text-blue-500 text-4xl" />, component: <OfficeCourse /> },
-  { name: "Graphic & Multimedia", icon: <FaPaintBrush className="text-red-500 text-4xl" />, component: <GraphicMultimedia /> },
-  { name: "Web & Software", icon: <FaLaptopCode className="text-blue-600 text-4xl" />, component: <WebSoftware /> },
-  { name: "Digital Marketing", icon: <FaBullhorn className="text-green-500 text-4xl" />, component: <DigitalMarketing /> },
-  { name: "Computer Hardware", icon: <FaMicrochip className="text-gray-600 text-4xl" />, component: <ComputerHardware /> },
-  { name: "3D Animation", icon: <FaCube className="text-purple-500 text-4xl" />, component: <Animation3D /> },
-  { name: "Spoken English", icon: <FaLanguage className="text-indigo-500 text-4xl" />, component: <SpokenEnglish /> },
-  { name: "Video Editing", icon: <FaVideo className="text-yellow-500 text-4xl" />, component: <VideoEditing /> },
-  { name: "AutoCAD", icon: <FaDraftingCompass className="text-pink-500 text-4xl" />, component: <AutoCAD /> },
-  { name: "Computer Sales & Service", icon: <FaTools className="text-green-700 text-4xl" />, component: <ComputerSellService /> },
+  { name: "Office Course", icon: <FaFileWord className="text-blue-500 text-4xl" />, component: OfficeCourse },
+  { name: "Graphic & Multimedia", icon: <FaPaintBrush className="text-red-500 text-4xl" />, component: GraphicMultimedia },
+  { name: "Web & Software", icon: <FaLaptopCode className="text-blue-600 text-4xl" />, component: WebSoftware },
+  { name: "Digital Marketing", icon: <FaBullhorn className="text-green-500 text-4xl" />, component: DigitalMarketing },
+  { name: "Computer Hardware", icon: <FaMicrochip className="text-gray-600 text-4xl" />, component: ComputerHardware },
+  { name: "3D Animation", icon: <FaCube className="text-purple-500 text-4xl" />, component: Animation3D },
+  { name: "Spoken English", icon: <FaLanguage className="text-indigo-500 text-4xl" />, component: SpokenEnglish },
+  { name: "Video Editing", icon: <FaVideo className="text-yellow-500 text-4xl" />, component: VideoEditing },
+  { name: "AutoCAD", icon: <FaDraftingCompass className="text-pink-500 text-4xl" />, component: AutoCAD },
+  { name: "Computer Sales & Service", icon: <FaTools className="text-green-700 text-4xl" />, component: ComputerSellService },
 ];
 
 export default function CourseGrid() {
@@ -44,6 +44,7 @@ export default function CourseGrid() {
   return (
     <div className="min-h-screen bg-gray-50 px-6 py-12">
       <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">Our Courses</h2>
+
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mb-12">
         {courses.map((course, idx) => (
           <div
@@ -64,15 +65,17 @@ export default function CourseGrid() {
       <div>
         {selectedCourse ? (
           <div className="transition-all duration-500">
-            {courses.find(c => c.name === selectedCourse)?.component}
+            {courses.find(c => c.name === selectedCourse)?.component && 
+              (() => {
+                const Component = courses.find(c => c.name === selectedCourse).component;
+                return <Component />;
+              })()
+            }
           </div>
         ) : (
-          <p className="text-center text-gray-500">
-            Please select a course to view details.
-          </p>
+          <p className="text-center text-gray-500">Please select a course to view details.</p>
         )}
       </div>
-
     </div>
   );
 }
