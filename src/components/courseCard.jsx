@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from "react";
 import {
   FaFileWord,
@@ -18,11 +18,11 @@ import GraphicDesign from "@components/graphicdesign";
 import WebDevelopment from "@components/webdevelopment";
 import DigitalMarketing from "@components/digitalmarketing";
 import ComputerHardware from "@components/computerhardware";
-import Animation from "@components/Animation";
-import SpokeEnglish from "@components/SpokenEnglish";
-import VideoEditing from "@components/VideoEditing";
-import AutoCAD from "@components/AutoCAD";
-import ComputerSellsService from "@components/ComputerSellsService";
+import Animation from "@components/animation";
+import SpokeEnglish from "@components/spokeenglish";
+import VideoEditing from "@components/videoediting";
+import AutoCAD from "@components/autocad";
+import ComputerSellsService from "@components/computersellsservice"; // <-- & বাদ দিয়ে rename করতে হবে
 
 const courses = [
   { name: "Office Course", icon: <FaFileWord className="text-blue-500 text-4xl" />, component: <OfficeCourse /> },

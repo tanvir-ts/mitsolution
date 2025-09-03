@@ -1,6 +1,6 @@
 "use client";
 
-export default function Admission() {
+export default function Addmisstion() {
   return (
     <section className="w-full px-4 py-10 bg-white">
       <div className="max-w-4xl mx-auto text-center">
