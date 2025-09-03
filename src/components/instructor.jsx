@@ -18,7 +18,7 @@ const instructors = [
     name: "Minhazul Karim",
     title: "Greaphic Designer",
     phone: "01711-000000",
-    course: "React & Next.js",
+    course: "Animation",
     email: "example@gmail.com",
     image: "/image/tanvir.jpg",
   },
