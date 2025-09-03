@@ -18,10 +18,10 @@ import GraphicDesign from "./graphicdesign";
 import WebDevelopment from "./webdevelopment";
 import DigitalMarketing from "./digitalmarketing";
 import ComputerHardware from "./computerhardware";
-import Animation from "./animation";
-import SpokeEnglish from "./spokeenglish";
-import VideoEditing from "./videoediting";
-import AutoCAD from "./autocad";
+import Animation from "./Animation";
+import SpokeEnglish from "./SpokeEnglish";
+import VideoEditing from "./VideoEditing";
+import AutoCAD from "./AutoCAD";
 import ComputerSellsService from "./computersells&service";
 
 const courses = [
