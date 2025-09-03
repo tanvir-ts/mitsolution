@@ -47,7 +47,7 @@ const courses = [
   },
 ];
 
-export default function animation() {
+export default function Animation() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <h2 className="text-3xl font-bold text-center mb-6">
