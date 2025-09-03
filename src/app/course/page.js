@@ -7,10 +7,10 @@ import WebDevelopment from "@/components/webdevelopment";
 import DigitalMarketing from "@/components/digitalmarketing";
 import ComputerHardware from "@/components/computerhardware";
 import Animation from "@/components/Animation";
-import SpokeEnglish from "@/components/spokeEnglish";
-import VideoEditing from "@/components/videoediting";
-import AutoCAD from "@/components/autocad";
-import ComputerSells from "@/components/computersells&service";
+import SpokeEnglish from "@/components/SpokeEnglish";
+import VideoEditing from "@/components/VideoEditing";
+import AutoCAD from "@/components/AutoCAD";
+import ComputerSellsService from "@/components/ComputerSellsService";
 
 export default function CoursePage  () {
     return(
@@ -27,7 +27,7 @@ export default function CoursePage  () {
         <SpokeEnglish />
         <VideoEditing />
         <AutoCAD />
-        <ComputerSells />
+        <ComputerSellsService />
        </main> 
     )
 }
