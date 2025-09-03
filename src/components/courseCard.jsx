@@ -13,16 +13,16 @@ import {
   FaTools,
 } from "react-icons/fa";
 
-import OfficeCourse from "./OfficeCourse";
+import OfficeCourse from "./officecourse";
 import GraphicDesign from "./graphicdesign";
 import WebDevelopment from "./webdevelopment";
-import DigitalMarketing from "./DigitalMarketing";
-import ComputerHardware from "./ComputerHardware";
-import Animation from "./Animation";
-import SpokeEnglish from "./SpokeEnglish";
-import VideoEditing from "./VideoEditing";
-import AutoCAD from "./AutoCAD";
-import ComputerSellsService from "./ComputerSells&Service";
+import DigitalMarketing from "./digitalmarketing";
+import ComputerHardware from "./computerhardware";
+import Animation from "./animation";
+import SpokeEnglish from "./spokeenglish";
+import VideoEditing from "./videoediting";
+import AutoCAD from "./autocad";
+import ComputerSellsService from "./computersells&service";
 
 const courses = [
   { name: "Office Course", icon: <FaFileWord className="text-blue-500 text-4xl" />, component: <OfficeCourse /> },
