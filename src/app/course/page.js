@@ -10,7 +10,7 @@ import Animation from "@/components/animation";
 import SpokeEnglish from "@/components/spokeenglish";
 import VideoEditing from "@/components/videoediting";
 import AutoCAD from "@/components/autocad";
-import ComputerSellsService from "@/components/computersellsservice"; 
+import ComputerSellsService from "@/components/computersellsservice";
 
 export default function CoursePage() {
   return (
