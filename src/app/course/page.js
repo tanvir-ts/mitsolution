@@ -12,15 +12,16 @@ import VideoEditing from "@/components/videoediting";
 import AutoCAD from "@/components/autocad";
 import ComputerSellService from "@/components/computersellservice";
 
+
 export default function CoursePage() {
   return (
-    <main>
+    <>
       <Course />
       <Admission />
       <CourseCard />
       <OfficeCourse />
       <GraphicDesign />
-      <WebDevelopment />
+      <WebDevelopment /> 
       <DigitalMarketing />
       <ComputerHardware />
       <Animation />
@@ -28,6 +29,6 @@ export default function CoursePage() {
       <VideoEditing />
       <AutoCAD />
       <ComputerSellService />
-    </main>
+    </>
   );
 }

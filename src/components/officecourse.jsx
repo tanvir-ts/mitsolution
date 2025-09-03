@@ -42,7 +42,7 @@ const courses = [
     title: "Typing Mastery (English & Bangla)",
     rating: 5,
     reviews: 2200,
-    fee: 15000,
+    fee: 2500,
     image: "/image/web imsge.jpg",
   },
 ];
