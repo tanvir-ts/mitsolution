@@ -14,8 +14,8 @@ import {
 } from "react-icons/fa";
 
 import OfficeCourse from "./OfficeCourse";
-import GraphicDesign from "./GraphicDesign";
-import WebDevelopment from "./WebDevelopment";
+import GraphicDesign from "./graphicdesign";
+import WebDevelopment from "./webdevelopment";
 import DigitalMarketing from "./DigitalMarketing";
 import ComputerHardware from "./ComputerHardware";
 import Animation from "./Animation";
@@ -37,7 +37,7 @@ const courses = [
   { name: "Computer Sales & Service", icon: <FaTools className="text-green-700 text-4xl" />, component: <ComputerSellsService /> },
 ];
 
-export default function CourseGrid() {
+export default function CourseCard() {
   const [selectedCourse, setSelectedCourse] = useState(null);
 
   return (
